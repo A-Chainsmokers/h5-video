@@ -1,0 +1,138 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+		},
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+		},
+		{
+			"path": "pages/info/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+		}, {
+			"path": "pages/search/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+
+		},
+		{
+			"path": "pages/discover/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+
+		}, {
+			"path": "pages/personal/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+		}, {
+			"path": "pages/setting/like",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+		},
+		{
+			"path": "pages/setting/history",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/uview/example/component.png",
+				"selectedIconPath": "static/uview/example/component_select.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/discover/index",
+				"iconPath": "static/uview/example/js.png",
+				"selectedIconPath": "static/uview/example/js_select.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/personal/index",
+				"iconPath": "static/uview/example/template.png",
+				"selectedIconPath": "static/uview/example/template_select.png",
+				"text": "我的"
+			}
+		]
+	}
+}
